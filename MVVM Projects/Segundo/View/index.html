@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <div style="padding: 10px; background-color: rgb(94, 94, 94); color: white; text-align: center; ">
+
+        <h1>RECORDATORIO</h1>
+
+    </div>
+    <div class="" style="padding: 10px; margin-top: 10px;">
+
+        <textarea name="tarea" id="txtTarea" cols="30" rows="10" style="width: 100%;"></textarea>
+        <br>
+        <input type="time" class="" id="txtTiempo" style="width: 45%;">
+        
+        <input type="button" value="APLICAR" style="width: 45%;" onclick="addTask();">
+    
+    </div>
+    
+    <div class="" style="background-color: darkslategray; padding: 15px;" >
+
+        <p id="lblNota"></p>
+        <br>
+        <p id="lblTiempo"></p>
+
+        <p id="lblresultado"> </p>
+
+    </div>
+
+
+<script src="../Model/timer.js"></script>
+<script src="../ViewModel/control.js"></script>
+<script src="javascript/app.js"></script>
+</body>
+</html>
